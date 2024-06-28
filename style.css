@@ -1,0 +1,36 @@
+* {
+     box-sizing: border-box;
+     /* el selector utilizado en este caso es el universal, que se utiliza para seleccionar todos los elementos */
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.red-box {
+    background-color: red;
+    margin-bottom: 50px;
+    padding: 30px;
+    /* en este caso aumentamos el padding para separar el contenido de el borde de la caja */
+}
+
+.blue-box {
+    background-color: blue;
+    margin-top: 80px;
+}
+
+/* colapso de margenes verticales
+
+en este caso, prevalece el margen mayor, es decir que el valor del margen que sea mayor, absorbe los valores menores a ella
+
+*/
+
+/* la diferencia entre el margin y el padding, es que el primero funciona fuera del borde la caja, mientras que el segundo lo hace de manera interna. 
+referente al margin negativo, esta referido a que se puede desplazar los elementos en direcciones contrarias, y no de manera normal como con numeros positivos. 
+*/
+
